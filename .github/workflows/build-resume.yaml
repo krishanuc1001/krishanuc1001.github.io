@@ -8,7 +8,7 @@ on:
     paths-ignore:
       - ".github/**/*.yml"
       - ".github/**/*.yaml"
-      - "!.github/workflows/build.yaml"
+      - "!.github/workflows/build-resume.yaml"
       - "**/*.md"
       - ".gitignore"
 
