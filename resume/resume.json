@@ -17,7 +17,8 @@
     "profiles": [
       {
         "network": "GitHub",
-        "username": "snigdhasjg"
+        "username": "snigdhasjg",
+        "url": "https://github.com/snigdhasjg"
       },
       {
         "network": "LinkedIn",
@@ -26,15 +27,18 @@
       },
       {
         "network": "Twitter",
-        "username": "DiscoToma2"
+        "username": "DiscoToma2",
+        "url": "https://twitter.com/DiscoToma2"
       },
       {
         "network": "stackoverflow",
-        "username": "7857701/snigdhajyoti"
+        "username": "snigdhajyoti",
+        "url": "https://stackoverflow.com/users/7857701/snigdhajyoti"
       },
       {
         "network": "medium",
-        "username": "@snigdhajyoti.ghosh"
+        "username": "@snigdhajyoti.ghosh",
+        "url": "https://medium.com/@snigdhajyoti.ghosh"
       }
     ]
   },
@@ -44,7 +48,7 @@
       "position": "Senior Consultant",
       "website": "",
       "startDate": "2022-09-01",
-      "summary": "**Ecommerce platform**\nBuilding RESTful domain APIs for e-commerce platform. Used event based system to sync data from multiple sources. \n\nMajor involvement on setting up data pipeline, building spring starter common library, performance testing & tuning. \nIn a team of 14, primary responsibility is to maintain code quality & clean code practices. Also to drive estimation, and help in analyzing architectural decision.",
+      "summary": "**ECommerce platform**\nBuilding RESTful domain APIs for e-commerce platform. To provide a single data source for data used across the ecommerce, used event based system to sync data from multiple sources. \n\nMajor involvement on setting up data pipeline, building spring starter common library, performance testing & tuning. \nIn a team of 14, primary responsibility is to maintain code quality & clean code practices. Also to drive estimation, and help in analyzing architectural decision.",
       "highlights": [
         "**Tech Stack:** Java 17, SpringBoot, Kafka, ksqlDB",
         "**Build Tool:** Gradle",
@@ -124,7 +128,9 @@
     {
       "name": "Spring Boot",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "Security", "Cloud", "Data JPA", "Gradle", "Logback"
+      ]
     },
     {
       "name": "Amazon Web Services (AWS)",
@@ -134,17 +140,17 @@
       ]
     },
     {
-      "name": "Cloud Applications",
+      "name": "DevOps Tools/Platforms",
       "level": "",
       "keywords": [
-        "Data Migration", "CI/CD", "GitHub Actions", "Terraform", "Azure DevOps"
+        "CI/CD", "GitHub Actions", "Terraform", "Azure DevOps"
       ]
     },
     {
       "name": "Microservices",
       "level": "",
       "keywords": [
-        "REST APIs", "Even driven system"
+        "RESTful web services", "Even driven system", "Data Migration"
       ]
     },
     {
@@ -155,7 +161,9 @@
     {
       "name": "Docker",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "CI/CD with Docker", "Dockerfile", "Docker Compose", "Microservices and Docker"
+      ]
     },
     {
       "name": "Python",
@@ -182,7 +190,9 @@
     {
       "name": "Apache Spark",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "Spark SQL", "Scala API"
+      ]
     },
     {
       "name": "Testing",
