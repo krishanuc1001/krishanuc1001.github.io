@@ -1,0 +1,54 @@
+name: Build Resume
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "main"
+    paths-ignore:
+      - ".github/**/*.yml"
+      - ".github/**/*.yaml"
+      - "!.github/workflows/build.yaml"
+      - "**/*.md"
+      - ".gitignore"
+
+concurrency: build_pipeline
+
+permissions:
+  contents: write
+
+jobs:
+  build-pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Prepare home page
+        run: |
+          mkdir build
+          
+          cp -r home/* build
+
+      - name: Prepare resume page
+        working-directory: resume
+        run: |
+          npm install -g resume-cli
+          npm install
+          
+          mkdir -p ../build/resume
+          resume export -t elegant -f html ../build/resume/index.html
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
+          git-config-name: Snigdhajyoti Ghosh
+          git-config-email: snigdhajyoti.ghosh@gmail.com
+          single-commit: true
