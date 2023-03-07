@@ -1,5 +1,14 @@
 {
+  "name": "resume-builder",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -r ../gh-pages/resume || true",
+    "setup": "mkdir -p ../gh-pages/resume",
+    "export": "resume export -t elegant -f html ../gh-pages/resume/index.html",
+    "serve": "resume serve -t elegant -d build"
+  },
   "dependencies": {
-    "jsonresume-theme-elegant": "^1.16.1"
+    "jsonresume-theme-elegant": "^1.16.1",
+    "resume-cli": "^3.0.8"
   }
 }

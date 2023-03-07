@@ -12,15 +12,21 @@ on:
       - "**/*.md"
       - ".gitignore"
 
-concurrency: build_pipeline
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  build-pages:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
@@ -31,24 +37,27 @@ jobs:
           node-version: 18
 
       - name: Prepare home page
+        working-directory: home
         run: |
-          mkdir build
-          
-          cp -r home/* build
+          npm run setup
+          npm run export
 
       - name: Prepare resume page
         working-directory: resume
         run: |
-          npm install -g resume-cli
           npm install
           
-          mkdir -p ../build/resume
-          resume export -t elegant -f html ../build/resume/index.html
+          npm run setup
+          npm run export
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          folder: build
-          git-config-name: Snigdhajyoti Ghosh
-          git-config-email: snigdhajyoti.ghosh@gmail.com
-          single-commit: true
+          path: 'gh-pages'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

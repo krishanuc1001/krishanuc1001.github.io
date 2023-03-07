@@ -1,0 +1,9 @@
+{
+  "name": "home-page-builder",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -r ../gh-pages || true",
+    "setup": "mkdir -p ../gh-pages",
+    "export": "cp index.html ../gh-pages"
+  }
+}
