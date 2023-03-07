@@ -44,7 +44,7 @@
       "position": "Senior Consultant",
       "website": "",
       "startDate": "2022-09-01",
-      "summary": "**ECommerce platform**\nBuilding RESTful domain APIs for e-commerce platform. Used event based system to sync data from multiple sources. \n\nMajor involvement on setting up data pipeline, building spring starter common library, performance testing & tuning. \nIn a team of 14, primary responsibility is to maintain code quality & clean code practices. Also to drive estimation, and help in analyzing architectural decision.",
+      "summary": "**Ecommerce platform**\nBuilding RESTful domain APIs for e-commerce platform. Used event based system to sync data from multiple sources. \n\nMajor involvement on setting up data pipeline, building spring starter common library, performance testing & tuning. \nIn a team of 14, primary responsibility is to maintain code quality & clean code practices. Also to drive estimation, and help in analyzing architectural decision.",
       "highlights": [
         "**Tech Stack:** Java 17, SpringBoot, Kafka, ksqlDB",
         "**Build Tool:** Gradle",
