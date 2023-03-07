@@ -17,8 +17,7 @@
     "profiles": [
       {
         "network": "GitHub",
-        "username": "snigdhasjg",
-        "url": "https://github.com/snigdhasjg"
+        "username": "snigdhasjg"
       },
       {
         "network": "LinkedIn",
@@ -27,13 +26,15 @@
       },
       {
         "network": "Twitter",
-        "username": "DiscoToma2",
-        "url": "https://twitter.com/DiscoToma2"
+        "username": "DiscoToma2"
       },
       {
         "network": "stackoverflow",
-        "username": "snigdhajyoti",
-        "url": "https://stackoverflow.com/users/7857701/snigdhajyoti"
+        "username": "7857701/snigdhajyoti"
+      },
+      {
+        "network": "medium",
+        "username": "@snigdhajyoti.ghosh"
       }
     ]
   },
@@ -99,10 +100,10 @@
       "institution": "Netaji Subhash Engineering College",
       "area": "Electronics and Communication Engineering",
       "studyType": "Bachelor of Technology (B.Tech.)",
-      "startDate": "2015-01-01",
+      "startDate": "2015-07-01",
       "gpa": "7.98",
       "courses": [],
-      "endDate": "2019-01-01"
+      "endDate": "2019-06-01"
     }
   ],
   "publications": [
@@ -193,16 +194,16 @@
   ],
   "languages": [
     {
-      "language": "Bengali",
-      "fluency": "Native or bilingual proficiency"
+      "language": "English",
+      "fluency": "Professional working proficiency"
     },
     {
       "language": "Hindi",
       "fluency": "Native or bilingual proficiency"
     },
     {
-      "language": "English",
-      "fluency": "Professional working proficiency"
+      "language": "Bengali",
+      "fluency": "Native or bilingual proficiency"
     }
   ],
   "projects": []
