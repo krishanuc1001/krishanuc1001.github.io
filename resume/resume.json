@@ -44,9 +44,9 @@
   },
   "work": [
     {
-      "company": "Thoughtworks",
       "position": "Senior Consultant",
-      "website": "",
+      "name": "/thoughtworks",
+      "url": "https://thoughtworks.com",
       "startDate": "2022-09-01",
       "summary": "**Ecommerce platform**\nBuilding RESTful domain APIs for e-commerce platform. To provide a single data source for data used across the ecommerce, used event based system to sync data from multiple sources. \n\nMajor involvement on setting up data pipeline, building spring starter common library, performance testing & tuning. \nIn a team of 14, primary responsibility is to maintain code quality & clean code practices. Also to drive estimation, and help in analyzing architectural decision.",
       "highlights": [
@@ -59,9 +59,9 @@
       ]
     },
     {
-      "company": "ThoughtWorks",
       "position": "Consultant",
-      "website": "",
+      "name": "/thoughtworks",
+      "url": "https://thoughtworks.com",
       "startDate": "2020-07-01",
       "summary": "**Location Finder**\nBuilt and migrated 2 legacy microservices for geolocation-based search for stores and dealers that provide parts or services within a geographical boundary, specified by a geo-JSON while also supporting a range of other filters. \n**Geocoding**\nDeveloped RESTful APIs for a downstream microservice for geocoding information based on user address, IP address, or coordinates. \n**Proxy API**\nHelped creating a micro-service that works as a proxy to another 3rd party service in conjunction with authorization, localization, multilingual. \n\nEnhanced geo-spatial query performance, ultimately leading to implementing a read replica auto-scaling of RDS drastically improved TPS from 48 to 126. \nDeveloped custom metrics to AWS CloudWatch and created multiple (more than 10) metrics dashboards for production trends. \nSet up CI/CD pipeline in Azure DevOps and introduced a relevant set of performance and integration tests to strengthen the quality, along with improving pipeline run time by 5 mins. \nAnalyzed root cause of production issues, summarized and articulated in technical meetings. \nIn a team of 8, primary responsibility is to co-create solution with the help of extreme programming & agile methodology. Onboarded and mentored 2 new project members around the domain, technical knowledge, and agile methodologies.",
       "highlights": [
@@ -75,9 +75,9 @@
       "endDate": "2022-08-01"
     },
     {
-      "company": "ThoughtWorks",
       "position": "Graduate Consultant",
-      "website": "",
+      "name": "/thoughtworks",
+      "url": "https://thoughtworks.com",
       "startDate": "2019-06-01",
       "summary": "**Dealer opportunity & lead analyzer**\nMigrated on-premise (cloudera) hadoop server to AWS. Along with that we had to implement changes, add new features to existing data pipeline. \n\nIn a team of 5, primary responsibility was to take ML model & put it in our data pipeline. Also ensuring that input data is clean.",
       "highlights": [
@@ -90,9 +90,9 @@
       "endDate": "2020-06-01"
     },
     {
-      "company": "ThoughtWorks",
       "position": "Internship Trainee",
-      "website": "",
+      "name": "/thoughtworks",
+      "url": "https://thoughtworks.com",
       "startDate": "2019-01-01",
       "summary": "Developed a mock e-commerce service with AGILE methodology.",
       "highlights": [],
