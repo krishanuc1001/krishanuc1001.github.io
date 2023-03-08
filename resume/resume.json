@@ -1,10 +1,10 @@
 {
   "basics": {
-    "name": "Snigdhajyoti Ghosh",
-    "label": "Developer | Senior Consultant",
-    "picture": "https://media.licdn.com/dms/image/C5103AQF4mIFQzdVk0Q/profile-displayphoto-shrink_800_800/0/1586076195003?e=2147483647&v=beta&t=MB3yoHTLucxh0BbAF6hJUum899WJARZ-WYKqIj9I1ZA",
-    "email": "snigdhajyotig@gmail.com",
-    "phone": "+91 8001660020",
+    "name": "Krishanu Chakraborty",
+    "label": "SDET | QA",
+    "picture": "https://avatars.githubusercontent.com/u/40739038?v=4",
+    "email": "krishanuc1001@gmail.com",
+    "phone": "+91 9038976487",
     "website": "",
     "summary": "As a Software Developer with 4 years of experience, I have a passion for using technology to solve complex problems and improve the user experience.\nI am dedicated to staying up-to-date with the latest industry trends and advancements, and regularly contribute to open source projects as a way to give back to the tech community.\nI thrive in fast-paced environments and enjoy working collaboratively with cross-functional teams to deliver high-quality products that meet and exceed customer expectations.",
     "location": {
@@ -17,28 +17,13 @@
     "profiles": [
       {
         "network": "GitHub",
-        "username": "snigdhasjg",
-        "url": "https://github.com/snigdhasjg"
+        "username": "krishanuc1001",
+        "url": "https://github.com/krishanuc1001"
       },
       {
         "network": "LinkedIn",
-        "username": "snigdhajyoti",
-        "url": "https://linkedin.com/in/snigdhajyoti"
-      },
-      {
-        "network": "Twitter",
-        "username": "DiscoToma2",
-        "url": "https://twitter.com/DiscoToma2"
-      },
-      {
-        "network": "stackoverflow",
-        "username": "snigdhajyoti",
-        "url": "https://stackoverflow.com/users/7857701/snigdhajyoti"
-      },
-      {
-        "network": "medium",
-        "username": "@snigdhajyoti.ghosh",
-        "url": "https://medium.com/@snigdhajyoti.ghosh"
+        "username": "Krishanu",
+        "url": "https://www.linkedin.com/in/krishanu-chakraborty/"
       }
     ]
   },
